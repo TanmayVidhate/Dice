@@ -1,4 +1,4 @@
-# Dice Roller
+# Dice Roller 🎲
 
 A simple dice roller web application built using ```HTML```, ```CSS```, and ```JavaScript```.
 
