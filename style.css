@@ -38,3 +38,61 @@ button{
     border: none;
     background-color: #FFA62F;
 }
+
+
+/*small Device*/
+@media screen and (max-width:600px){
+    .diceMain{
+        width: 40%;
+        margin: 1vw;
+    }
+
+    button{
+        width: 40%;
+        padding: 2vw 2vw;
+        font-size: 3vw;
+    }
+}
+
+/*Normal Device*/
+@media screen and (min-width:601px) and (max-width:768px){
+    .diceMain{
+        width: 45%;
+        margin: 1.4vw;
+    }
+
+    button{
+        width: 40%;
+        padding: 2vw 2vw;
+    }
+}
+
+
+/*Tablets Device*/
+@media screen and (min-width:769px ) and (max-width:992px){
+    .diceMain{
+        width: 30%;
+        margin: 2vw;
+    }
+
+    button{
+        width: 30%;
+        padding: 2vw 2vw;
+        font-size: 2.5vw;
+    }
+}
+
+
+/*Large Device*/
+@media screen and (min-width:993px ) and (max-width:1250px){
+    .diceMain{
+        width: 30%;
+        margin: 1.3vw;
+    }
+
+    button{
+        width: 30%;
+        padding: 1.8vw 1.4vw;
+        font-size: 2.1vw;
+    }
+}
